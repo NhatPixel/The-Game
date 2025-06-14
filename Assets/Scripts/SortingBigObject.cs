@@ -16,17 +16,17 @@ public class SortingBigObject : MonoBehaviour
         fadeColor.a = 0.7f;
     }
 
-    private void Update()
+    void Update()
     {
         spriteRenderer.sortingOrder = Mathf.RoundToInt(-transform.position.y * 100);
     }
 
-    public void FadeOut()
+    void FadeOut()
     {
         spriteRenderer.color = fadeColor;
     }
 
-    public void FadeIn()
+    void FadeIn()
     {
         spriteRenderer.color = defaultColor; 
     }

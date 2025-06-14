@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8bf4c7dffa08bdf43885ed8d46cea74b
+guid: 7356bcb66ab52ec4ea831370838d64a7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5821222041826013885
-    second: input_0_0
+      213: 3822675230927641974
+    second: setting_button_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,10 +72,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 64
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: input_0_0
+      name: setting_button_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 56
-        height: 23
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: db2b6b9da9229c050800000000000000
-      internalID: 5821222041826013885
+      spriteID: 67d502f7ededc0530800000000000000
+      internalID: 3822675230927641974
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      input_0_0: 5821222041826013885
+      setting_button_0: 3822675230927641974
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
