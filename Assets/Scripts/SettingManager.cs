@@ -7,8 +7,8 @@ using System.Text.RegularExpressions;
 
 public class SettingManager : MonoBehaviour
 {
-    [SerializeField] private TMP_InputField inputFieldHostPort;
-    [SerializeField] private TMP_InputField inputFieldSeverIP;
+    [SerializeField] TMP_InputField inputFieldHostPort;
+    [SerializeField] TMP_InputField inputFieldSeverIP;
 
     const string DefaultPort = "7777";
 

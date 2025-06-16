@@ -91,11 +91,16 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.18525398, y: 1.8998795}
-      - {x: -0.5928348, y: 1.1918098}
-      - {x: -0.32387823, y: 0.76618135}
-      - {x: 0.6010349, y: 1.0114046}
-      - {x: 0.10198021, y: 1.8850801}
+    - - {x: -1.0254393, y: 1.5506533}
+      - {x: -0.7459737, y: 1.132125}
+      - {x: -0.15332295, y: 0.92523617}
+      - {x: -0.18404573, y: 0.44999984}
+      - {x: 0.17815943, y: 0.44366437}
+      - {x: 0.14766204, y: 0.98943913}
+      - {x: 0.924222, y: 1.1566621}
+      - {x: 0.9207567, y: 1.6928703}
+      - {x: 0.2463898, y: 2.5676146}
+      - {x: -0.23918131, y: 2.5678797}
   m_UseDelaunayMesh: 0
 --- !u!1 &7934807490047427405
 GameObject:
@@ -222,8 +227,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.0027311149, y: 0.28}
-  m_Size: {x: 0.41277015, y: 0.3034586}
+  m_Offset: {x: -0.008154389, y: 0.28}
+  m_Size: {x: 0.6812859, y: 0.3034586}
   m_Direction: 1
 --- !u!114 &3161110971110985892
 MonoBehaviour:
@@ -260,8 +265,8 @@ MonoBehaviour:
   m_ShadowMesh:
     m_Mesh: {fileID: 0}
     m_LocalBounds:
-      m_Center: {x: 0.0027313232, y: 0.27999115, z: 0}
-      m_Extent: {x: 0.20637512, y: 0.15172577, z: 0}
+      m_Center: {x: -0.008155823, y: 0.27999115, z: 0}
+      m_Extent: {x: 0.34062958, y: 0.15172577, z: 0}
     m_EdgeProcessing: 1
     m_TrimEdge: 0
     m_FlipX: 0
@@ -290,7 +295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 0
+  GlobalObjectIdHash: 713870405
   InScenePlacedSourceGlobalObjectIdHash: 0
   DeferredDespawnTick: 0
   Ownership: 1

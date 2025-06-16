@@ -30,7 +30,9 @@ public class PlayerController : NetworkBehaviour
 
     void Start()
     {
-        InitializeComponents();
+        rigidbody2d = GetComponent<Rigidbody2D>();
+        playerAnimator = GetComponent<Animator>();
+        playerSpriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -46,13 +48,6 @@ public class PlayerController : NetworkBehaviour
         {
             MovePlayer();
         }
-    }
-
-    void InitializeComponents()
-    {
-        rigidbody2d = GetComponent<Rigidbody2D>();
-        playerAnimator = GetComponent<Animator>();
-        playerSpriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void HandleInput()
@@ -82,7 +77,7 @@ public class PlayerController : NetworkBehaviour
 
     void Flip()
     {
-        transform.localScale = new Vector3(Mathf.Sign(horizontal.Value), 1, 1);
+        transform.localScale = new Vector3(horizontal.Value, 1, 1);
     }
 
     void UpdateAnimation()
