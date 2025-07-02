@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 6092551283134217684}
   - component: {fileID: 5460930394333992446}
   - component: {fileID: 3620323366377369046}
+  - component: {fileID: 1249145212223382941}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -134,7 +135,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
-  speed: 3
 --- !u!50 &7619165844620863351
 Rigidbody2D:
   serializedVersion: 5
@@ -160,7 +160,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!95 &6047591677733058112
 Animator:
@@ -374,3 +374,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0.01, y: 0.36363637}
   m_Size: {x: 0.21, y: 0.72727275}
   m_Direction: 0
+--- !u!114 &1249145212223382941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588931338596497414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abe3ac5a5907acc41bcd3265b9e14ee1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverableLayer:
+    serializedVersion: 2
+    m_Bits: 1

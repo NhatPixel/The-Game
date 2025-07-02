@@ -115,6 +115,8 @@ GameObject:
   - component: {fileID: 5452709826357892876}
   - component: {fileID: 3161110971110985892}
   - component: {fileID: -6853326140402454611}
+  - component: {fileID: 9159070633309989641}
+  - component: {fileID: 5581038488509268960}
   m_Layer: 0
   m_Name: Tree
   m_TagString: Untagged
@@ -308,3 +310,84 @@ MonoBehaviour:
   AutoObjectParentSync: 1
   SyncOwnerTransformWhenParented: 1
   AllowOwnerToParent: 0
+--- !u!114 &9159070633309989641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7934807490047427405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a990b357270e5644ae9de0e3c104021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverMaterial: {fileID: 2100000, guid: 9868002778e5b69499bccd630af78e7d, type: 2}
+--- !u!60 &5581038488509268960
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7934807490047427405}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1.8863636, y: 2.590909}
+    newSize: {x: 1.1818181, y: 1.7954545}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.6931818, y: 0.97727275}
+      - {x: 0.9431819, y: 1.2727273}
+      - {x: 0.9431819, y: 1.7272727}
+      - {x: 0.6931818, y: 2.1136365}
+      - {x: 0.4659091, y: 2.4318182}
+      - {x: 0.2159091, y: 2.5909092}
+      - {x: -0.26136366, y: 2.5909092}
+      - {x: -0.85227275, y: 1.8863637}
+      - {x: -0.9431819, y: 1.659091}
+      - {x: -0.9431819, y: 1.3409091}
+      - {x: -0.7613637, y: 1.0681819}
+      - {x: -0.4659091, y: 1}
+      - {x: -0.19318183, y: 0.90909094}
+      - {x: -0.39772728, y: 0.27272728}
+      - {x: -0.39772728, y: 0.22727273}
+      - {x: -0.35227275, y: 0.18181819}
+      - {x: -0.2840909, y: 0.06818182}
+      - {x: 0.19318183, y: 0.06818182}
+      - {x: 0.42045456, y: 0.18181819}
+      - {x: 0.3068182, y: 0.45454547}
+      - {x: 0.19318183, y: 1}
+  m_UseDelaunayMesh: 0

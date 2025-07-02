@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ea604054dd045564f845b4c729610990
+guid: ca07519c82b8297499fcb3e76185bd5e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 515398547636034221
-    second: tree_0_0
+      213: 7440981132975211316
+    second: wood_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,8 +49,8 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 7
-  spritePivot: {x: 0.5, y: 0}
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 44
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 128
+    maxTextureSize: 64
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -98,10 +98,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Android
-    maxTextureSize: 128
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tree_0_0
+      name: wood_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 52
-        height: 79
+        width: 35
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,15 +128,23 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: daa19959f30172700800000000000000
-      internalID: 515398547636034221
+      spriteID: 4330f5b9aeca34760800000000000000
+      internalID: 7440981132975211316
       vertices: []
       indices: 
       edges: []
       weights: []
-    outline: []
+    outline:
+    - - {x: 8.5, y: 9}
+      - {x: -8.5, y: 9}
+      - {x: -8.5, y: -9}
+      - {x: 8.5, y: -9}
     customData: 
-    physicsShape: []
+    physicsShape:
+    - - {x: 8.5, y: 9}
+      - {x: -8.5, y: 9}
+      - {x: -8.5, y: -9}
+      - {x: 8.5, y: -9}
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
     internalID: 1537655665
@@ -148,7 +156,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tree_0_0: 515398547636034221
+      wood_0: 7440981132975211316
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
